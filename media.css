@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1312px){
+    button {
+        top: 0px;
+        left: 155px;
+        width: auto;
+    }
+    .fotoPerfil {
+        margin: 40px 18px;
+    }
+    .pregress {
+        margin: 1px 170px 5px 18px;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    .principal {
+        margin: 2% 10%;
+        justify-content: center;
+        margin: 0 150px;
+    }
+    .progress {
+        margin: 1px 100px 5px 20px;
+    }
+}
+
+@media only screen and (max-width: 790px){
+    .principal {
+        margin: 2% 10%;
+        margin: 0 80px;
+    }
+    body {
+        min-height: 1100px;
+    }
+    .progress {
+        margin: 1px 100px 5px 20px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .principal {
+        margin: 0.1% 0.1% 0.1% 0.1%;
+        justify-content: center;
+        margin: 0 80px;
+    }
+    button {
+        left: 50px;
+        top: 3px;
+        font-weight: bold;
+    }
+    .progress {
+        margin: 1px 50px 5px 20px;
+    }
+    body {
+        min-height: 1150px;
+    }
+}
+
+@media only screen and (max-width: 556px){
+    body {
+        min-height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .principal {
+        margin: 0.1% 0.1% 0.1% 0.1%;
+        justify-content: center;
+        margin: 0 80px;
+        grid-template-columns: 75% 70%;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    button {
+        width: 97px;
+        left: 25px;
+    }
+    .fotoPerfil {
+        max-width: 150px;
+        max-height: 150px;
+        width: auto;
+        height: auto;
+    }
+    .descricao {
+        font-size: 12px;
+    }
+    .blocoInfo {
+        font-size: 13px;
+    }
+    .subtitulo {
+        font-size: 15px;
+    }
+    .progress {
+        margin: 1px 1px 5px 1px;
+    }
+    body {
+        min-height: 1400px;
+    }
+}

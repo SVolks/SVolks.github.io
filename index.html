@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURRÍCULO STEPHANIE VOLCOV</title>
     <link href="./styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./media.css" type="text/css">
+    <link rel="stylesheet" href="./dark.css" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script>function alterarTema() {
         document.body.classList.toggle("dark");
@@ -14,8 +16,8 @@
 <body>
     <div class="principal">
         <div class="ladoEsquerdo">
-            <img src="Foto.jpeg" alt="Foto"  width="150" 
-            height="150" class="fotoPerfil"
+            <img src="Foto.svg" alt="Foto"  width="150" 
+            height="150" class="fotoPerfil" title="Stephanie Volcov"
             >
             <section>
                 <h3 class="tituloDados">Dados Pessoais</h3>
@@ -26,12 +28,12 @@
                 </div>
                 <div class="info">
                     <span class="material-icons">contact_mail</span>
-                        <b><a class="link" href="mailto:stevolcov@gmail.com" target="_blank" title="Hiperlink Gmail!">
+                        <b><a class="link" href="mailto:stevolcov@gmail.com" target="_blank" title="Contacte-me pelo Gmail!">
                     <span class="descricao">stevolcov@gmail.com</span></a></b>
                 </div>
                 <div class="info">
                     <span class="material-icons">whatsapp</span> 
-                        <b><a class="link" href="https://api.whatsapp.com/send?phone=5511970323977" target="_blank" title="Hiperlink Whatsapp!">
+                        <b><a class="link" href="https://api.whatsapp.com/send?phone=5511970323977" target="_blank" title="Contacte-me pelo Whatsapp!">
                     <span class="descricao">+55 (11) 9.7032-3977</span></a></b>
                 </div>
                 <div class="info">
@@ -45,6 +47,7 @@
                 <h1>STEPHANIE VOLCOV</h1>
             </p>
             <div class="margem">
+                <button onclick="alterarTema()">Alterar Tema</button>
             <div class="paragrafos">
                 <h2 class="subtitulo">FORMAÇÃO ACADÊMICA</h2>
                 <p class="blocoInfo">• Bacharelado em Biomedicina <b>Faculdade das Américas - FAM</b>, São Paulo, 2021, habilitada em Análises Clínicas</p>   
@@ -60,19 +63,23 @@
             <div class="paragrafos">
                 <h2 class="subtitulo">CONHECIMENTO EM INFORMÁTICA</h2>
                 <p class="blocoInfos"><span class="material-icons">network_wifi_3_bar</span>Pacote Office</p>
+                    <div class="progress"><div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div></div>
                 <p class="blocoInfos2"><span class="material-icons">network_wifi_2_bar</span>HTML</p>
+                    <div class="progress"><div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40%</div></div>
                 <p class="blocoInfos2"><span class="material-icons">network_wifi_2_bar</span>CSS</p>
+                    <div class="progress"><div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40%</div></div>
                 <p class="blocoInfos1"><span class="material-icons">network_wifi_1_bar</span>JavaScript</p>
+                    <div class="progress"><div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">15%</div></div>
             </div>
             <div class="paragrafos">
                 <h2 class="subtitulo">IDIOMA</h2>
                 <p class="Icone1"><span class="material-icons">language</span>Português</p>
+                    <div class="progress"><div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div></div>
                 <p class="Icone2"><span class="material-icons">language</span>Inglês</p>
+                    <div class="progress"><div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">20%</div></div>
                 <p class="Icone2"><span class="material-icons">language</span>Espanhol</p>
+                    <div class="progress"><div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40%</div></div>
             </div>
-            </div>
-            <div class="tema">
-                <button onclick="alterarTema()">Alterar Tema</button>
             </div>
         </div>
     </div>
