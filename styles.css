@@ -52,7 +52,7 @@ h1 {
     text-align: justify;
     font-family: Cambria;
     margin: 12px;
-    line-height: 23px;
+    line-height: 2;
 }
 
 .blocoInfos {
@@ -108,13 +108,13 @@ h1 {
 body {
     background-color: rgb(204, 173, 240);
     margin: 10px 0;
-    min-height: 927.8px;
+    min-height: 940px;
 }
 
 .principal {
     background-color: whitesmoke;
     margin: 0 300px;
-    height: 900px;
+    padding-top: 0px;
     display: grid;
     grid-template-columns: 1fr 70%;
     box-shadow: 6px 6px 6px rgba(130, 109, 153, 0.699);
@@ -145,6 +145,10 @@ button {
     background:rgb(245, 244, 250);
     font-family: Cambria;
     font-size: 10px;
+}
+
+p {
+    font-size: clamp(1em, 1em + 1vw, 1em);
 }
 
 button:hover {
